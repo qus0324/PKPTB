@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2? family= Stylish & display=swap');
+        * {
+            
+        }
+        .title{
+            color:white;
+            background-color: tomato;
+            font-size: 24px; 
+            padding: 4px 14px;
+            border-radius: 8px;
+        
+            
+        }
+        .bg {
+            width: 360px;
+            background-image:url('<%=@user.background_image.expiring_url %>');
+        }
+        .msg {
+            font-weight: bold;
+        }
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+<body class="bg center">
+    <h1 class="title">2023 신년계획</h1>
+    <p  class="msg">올해는 꼭 모두 지키자!</p>
+    <div class="row flex-row wrap">
+    <div class="bucket imge1 center">1월:헬스,용돈모으기,에펙배우기,코딩배우기</div>
+    <div class="bucket imge2 center">2월:헬스,
+        콜로소(일러스트 그림)배우기,에펙,프리미어 배우기</div>
+    <div class="bucket imge2 center">3월:헬스,학교공부,콜로소(일러스트 그림)배우기,에펙,프리미어 배우기
+    </div>
+    <div class="bucket imge1 center">4월:헬스,학교공부하기,콜로소 공부하기</div>
+    <div class="bucket imge1 center">5월:헬스,학교공부,콜로소,운동</div>
+    <div class="bucket imge2 center">6월:헬스,파쿠르 학원 다니기</div>
+    </div>
+   
+</body>
+</html>
